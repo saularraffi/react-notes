@@ -957,7 +957,7 @@
 -   Context API usage example
 
     ```jsx
-    import { createContext, useState, useContext } from "react;
+    import { createContext, useState, useContext } from "react";
 
     // Step 1) Create a context
     const ItemContext = createContext();
