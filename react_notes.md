@@ -445,7 +445,7 @@
 
 -   Two types of logic in react
 
-    ![Two types of logic in react](images/rules_for_render_logic.png)
+    ![Two types of logic in react](images/two_types_of_logic_in_react.png)
 
 -   Side effects vs. pure functions
 
