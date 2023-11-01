@@ -973,14 +973,14 @@
 
         return (
             // Step 2) Provide value to child components
-            <ItemContext.Porvider value={{
+            <ItemContext.Provider value={{
                 i1: item1,
                 i2: item2,
                 onSetItem2: handleSetItem2,
             }}>
                 // components embedded within provider get access to context
                 <MyComponent />
-            </ItemContext.Porvider>
+            </ItemContext.Provider>
         )
     }
 
@@ -1010,14 +1010,14 @@
         }
 
         return (
-            <ItemContext.Porvider value={{
+            <ItemContext.Provider value={{
                 i1: item1,
                 i2: item2,
                 onSetItem2: handleSetItem2,
             }}>
                 // now any children components get access to the context
                 {children}
-            </ItemContext.Porvider>
+            </ItemContext.Provider>
         )
     }
 
