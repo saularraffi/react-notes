@@ -1297,8 +1297,11 @@
     // After code splitting
     import { lazy, Suspense } from "react";
 
+    // the first time you visit home page, it will be slow because code needs to be sent from server
     const Homepage = lazy(() => import("..."));
+    // the first time you visit product page, it will be slow because code needs to be sent from server
     const Product = lazy(() => import("..."));
+    // ...and so on
     const Pricing = lazy(() => import("..."));
 
     function App() {
