@@ -906,8 +906,8 @@
         return (
             <BrowserRouter>
                 <Routes>
-                    <Route path="component1/:id" element={<Component1 />} />
-                    <Route path="component2" element={<Component2 />} />
+                    <Route path="component1" element={<Component1 />} />
+                    <Route path="component2/:id" element={<Component2 />} />
                 </Routes>
             </BrowserRouter>
         );
