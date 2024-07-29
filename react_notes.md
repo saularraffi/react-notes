@@ -883,7 +883,7 @@
     ```jsx
     import { Outlet } from "react-router-dom";
 
-    function App() {
+    function Parent() {
         return (
             ...
             // if user browses to /parent/child1, then Child1 component is rendered in place of Outlet
